@@ -1,29 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Fullscreen GIF Player</title>
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      background: #000;
-      height: 100%;
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
-    }
-
-    img {
-      max-width: 100%;
-      max-height: 100%;
-      object-fit: contain;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Fabric Mod</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-  <img src="fade.gif" alt="Fullscreen GIF" />
+<body class="bg-gray-100 font-sans">
+  <header class="bg-blue-600 text-white p-6 shadow-md">
+    <div class="container mx-auto">
+      <h1 class="text-3xl font-bold">Orbital Cannon mod</h1>
+      <p class="text-sm mt-2">Made by Wyv.1 on discord</p>
+    </div>
+  </header>
+
+  <main class="container mx-auto p-6">
+    <section class="bg-white p-6 rounded-lg shadow mb-6">
+      <h2 class="text-2xl font-semibold mb-4">Download Plugin</h2>
+      <p class="mb-4">Grab the latest compiled plugin JAR here:</p>
+      <a href="my-mod-1.0.0.jar" download class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Download JAR</a>
+    </section>
+
+    <section class="bg-white p-6 rounded-lg shadow mb-6">
+      <h2 class="text-2xl font-semibold mb-4">Source Code</h2>
+      <p class="mb-4">View or download the source code from GitHub:</p>
+      <a href="https://github.com/yourusername/my-fabric-mod" target="_blank" class="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-900">View on GitHub</a>
+    </section>
+
+<section class="bg-white p-6 rounded-lg shadow mb-6">
+      <h2 class="text-2xl font-semibold mb-4">Discord Link:</h2>
+      <p class="mb-4">Join the discord here:</p>
+      <a href="https://discord.gg/txEtqrPDkH" target="_blank" class="bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600">View on GitHub</a>
+    </section>
+
+    <section class="bg-white p-6 rounded-lg shadow mb-6">
+      <h2 class="text-2xl font-semibold mb-4">Download Instructions</h2>
+      <p class="mb-4">Click below to download a .txt file instead of viewing it in the browser:</p>
+      <a href="1gb payload.txt" download class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Download Instructions (.txt)</a>
+    </section>
+
+    <section class="bg-white p-6 rounded-lg shadow">
+      <h2 class="text-2xl font-semibold mb-4">Setup Instructions</h2>
+      <ul class="list-disc list-inside space-y-2">
+        <li>Minecraft 1.21.7(only) and Fabric Loader 0.16.14</li>
+        <li>Put the downloaded .jar in your <code>.minecraft/mods</code> folder</li>
+        <li>Run the game with the Fabric install</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="bg-gray-200 text-center p-4 text-sm text-gray-600">
+    &copy; 2025 Wyv Modding. All rights reserved.
+  </footer>
 </body>
 </html>
